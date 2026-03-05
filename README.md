@@ -15,3 +15,11 @@ short_description: Food Calorie Tracker
 
 An AI-powered food calorie tracking and diet recommendation application.
 
+
+## Features
+
+- Food image recognition using Google Gemini AI
+- Real-time calorie tracking
+- Daily calorie goal monitoring
+- Diet recommendations
+
