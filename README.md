@@ -23,3 +23,12 @@ An AI-powered food calorie tracking and diet recommendation application.
 - Daily calorie goal monitoring
 - Diet recommendations
 
+
+## Installation
+
+```bash
+git clone https://github.com/Chandrkant07/Diet-calorie-recommedation-system.git
+cd Diet-calorie-recommedation-system
+pip install -r requirements.txt
+```
+
