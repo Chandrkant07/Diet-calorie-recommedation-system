@@ -30,3 +30,7 @@ All notable changes to this project will be documented in this file.
 ## [2026-03-10]
 - chore: minor cleanup
 
+
+## [2026-03-12]
+- docs: improve docstrings
+
