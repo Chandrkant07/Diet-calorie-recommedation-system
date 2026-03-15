@@ -38,3 +38,7 @@ All notable changes to this project will be documented in this file.
 ## [2026-03-13]
 - refactor: optimize imports
 
+
+## [2026-03-15]
+- style: align code formatting
+
