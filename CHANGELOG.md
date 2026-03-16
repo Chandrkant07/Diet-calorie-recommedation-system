@@ -42,3 +42,7 @@ All notable changes to this project will be documented in this file.
 ## [2026-03-15]
 - style: align code formatting
 
+
+## [2026-03-16]
+- chore: update configuration
+
