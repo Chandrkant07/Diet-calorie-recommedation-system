@@ -32,3 +32,10 @@ cd Diet-calorie-recommedation-system
 pip install -r requirements.txt
 ```
 
+
+## Usage
+
+1. Launch the app with `streamlit run app.py`
+2. Upload or capture a food image
+3. View calorie information and recommendations
+
