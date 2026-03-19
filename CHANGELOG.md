@@ -50,3 +50,7 @@ All notable changes to this project will be documented in this file.
 ## [2026-03-18]
 - docs: clarify function descriptions
 
+
+## [2026-03-19]
+- refactor: remove redundant code
+
