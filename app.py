@@ -22,7 +22,7 @@
 # def get_food_details(image_data):
 #     model = genai.GenerativeModel('gemini-1.5-flash')
 #     calorie_prompt = (
-#         "Analyze this food image and return only the food name and total calories."
+#         "Analyze this food image carefully. Identify the food item and estimate its total calorie content accurately."
 #         " Format: 'Food: <food name>, Calories: <calories>'. If unsure, estimate."
 #     )
     
@@ -155,7 +155,7 @@ HUGGINGFACE_API_URL = "https://api-inference.huggingface.co/models/meta-llama/Ll
 def get_food_details(image_data):
     model = genai.GenerativeModel('gemini-1.5-flash')
     calorie_prompt = (
-        "Analyze this food image and return only the food name and total calories."
+        "Analyze this food image carefully. Identify the food item and estimate its total calorie content accurately."
         " Format: 'Food: <food name>, Calories: <calories>'. If unsure, estimate."
     )
     
@@ -425,3 +425,4 @@ with tab2:
     
     import random
     st.markdown(f"**Tip of the day:** {random.choice(tips)}")
+
