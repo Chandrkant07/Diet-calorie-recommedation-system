@@ -58,3 +58,7 @@ All notable changes to this project will be documented in this file.
 ## [2026-03-21]
 - style: standardize naming conventions
 
+
+## [2026-03-22]
+- chore: organize file structure
+
