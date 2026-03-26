@@ -39,3 +39,9 @@ pip install -r requirements.txt
 2. Upload or capture a food image
 3. View calorie information and recommendations
 
+
+## API Configuration
+
+This app uses the Google Gemini API for food recognition.
+Set your API key in the application configuration.
+
