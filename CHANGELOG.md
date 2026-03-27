@@ -70,3 +70,7 @@ All notable changes to this project will be documented in this file.
 ## [2026-03-25]
 - refactor: improve error messages
 
+
+## [2026-03-27]
+- style: fix indentation issues
+
