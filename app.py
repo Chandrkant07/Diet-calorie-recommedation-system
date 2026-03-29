@@ -45,6 +45,7 @@
 
 # # Function to analyze food image
 # def analyze_food_image(image_bytes, mime_type):
+    """Analyze a food image and return food name with calorie count."""
 #     if image_bytes:
 #         image_data = [{"mime_type": mime_type, "data": image_bytes}]
 #         return get_food_details(image_data)  # Returns food_name, calories
@@ -229,6 +230,7 @@ def get_diet_recommendations_huggingface(food_name):
 
 # Function to analyze food image
 def analyze_food_image(image_bytes, mime_type):
+    """Analyze a food image and return food name with calorie count."""
     if image_bytes:
         image_data = [{"mime_type": mime_type, "data": image_bytes}]
         return get_food_details(image_data)  # Returns food_name, calories
@@ -425,4 +427,5 @@ with tab2:
     
     import random
     st.markdown(f"**Tip of the day:** {random.choice(tips)}")
+
 
