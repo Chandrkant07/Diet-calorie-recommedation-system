@@ -45,3 +45,8 @@ pip install -r requirements.txt
 This app uses the Google Gemini API for food recognition.
 Set your API key in the application configuration.
 
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
