@@ -90,3 +90,7 @@ All notable changes to this project will be documented in this file.
 ## [2026-04-02]
 - style: improve code readability
 
+
+## [2026-04-03]
+- chore: update project metadata
+
