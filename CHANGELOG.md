@@ -98,3 +98,7 @@ All notable changes to this project will be documented in this file.
 ## [2026-04-05]
 - docs: add code comments
 
+
+## [2026-04-06]
+- refactor: simplify logic flow
+
