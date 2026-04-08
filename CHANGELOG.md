@@ -102,3 +102,7 @@ All notable changes to this project will be documented in this file.
 ## [2026-04-06]
 - refactor: simplify logic flow
 
+
+## [2026-04-08]
+- style: format code consistently
+
