@@ -15,7 +15,8 @@
 # # Configure Gemini API
 # genai.configure(api_key="AIzaSyD9Gx3RTE4ejA-TruwjtrK-mFFnkRL3eVE")
 
-# # Set daily calorie requirement
+# # Application Constants
+# Set daily calorie requirement
 # DAILY_CALORIE_GOAL = 2000
 
 # # Function to get food name and calories from Gemini API
@@ -145,6 +146,7 @@ import json
 # Configure Gemini API
 genai.configure(api_key="AIzaSyD9Gx3RTE4ejA-TruwjtrK-mFFnkRL3eVE")
 
+# Application Constants
 # Set daily calorie requirement
 DAILY_CALORIE_GOAL = 2000
 
@@ -431,3 +433,4 @@ with tab2:
 
 
 # Updated: 2026-04-04T11:30:00
+
