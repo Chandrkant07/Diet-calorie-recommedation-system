@@ -110,3 +110,7 @@ All notable changes to this project will be documented in this file.
 ## [2026-04-09]
 - chore: minor cleanup
 
+
+## [2026-04-11]
+- docs: improve docstrings
+
