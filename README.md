@@ -50,3 +50,8 @@ Set your API key in the application configuration.
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
+
+## Screenshots
+
+*Coming soon*
+
