@@ -20,7 +20,7 @@
 # DAILY_CALORIE_GOAL = 2000
 
 # # Function to get food name and calories from Gemini API
-# def get_food_details(image_data):
+# def get_food_details(image_data: list) -> tuple:
 #     model = genai.GenerativeModel('gemini-1.5-flash')
 #     calorie_prompt = (
 #         "Analyze this food image carefully. Identify the food item and estimate its total calorie content accurately."
@@ -155,7 +155,7 @@ HUGGINGFACE_API_KEY = "YOUR_HUGGINGFACE_API_KEY"  # Replace with your actual API
 HUGGINGFACE_API_URL = "https://api-inference.huggingface.co/models/meta-llama/Llama-2-70b-chat-hf"  # You can change to another model if preferred
 
 # Function to get food name and calories from Gemini API
-def get_food_details(image_data):
+def get_food_details(image_data: list) -> tuple:
     model = genai.GenerativeModel('gemini-1.5-flash')
     calorie_prompt = (
         "Analyze this food image carefully. Identify the food item and estimate its total calorie content accurately."
@@ -433,4 +433,5 @@ with tab2:
 
 
 # Updated: 2026-04-04T11:30:00
+
 
