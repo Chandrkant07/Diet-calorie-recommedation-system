@@ -216,7 +216,7 @@ def get_diet_recommendations_huggingface(food_name):
             
             # Extract JSON from the response if it's embedded in other text
             json_match = re.search(r'({.*})', response_text, re.DOTALL)
-            if json_match:
+            if json_match:  # Parse structured JSON from AI response
                 response_text = json_match.group(1)
                 
             try:
@@ -308,7 +308,7 @@ if image:
                 # Try to parse as JSON
                 try:
                     json_match = re.search(r'({.*})', response.text, re.DOTALL)
-                    if json_match:
+                    if json_match:  # Parse structured JSON from AI response
                         clean_json = json_match.group(1)
                         st.session_state.current_recommendation = json.loads(clean_json)
                     else:
@@ -433,5 +433,6 @@ with tab2:
 
 
 # Updated: 2026-04-04T11:30:00
+
 
 
