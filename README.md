@@ -55,3 +55,16 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 *Coming soon*
 
+
+## Tech Stack
+
+- Python 3.x
+- Streamlit
+- Google Gemini AI
+- Plotly
+- Pandas
+
+## License
+
+MIT License
+
