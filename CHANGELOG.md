@@ -154,3 +154,7 @@ All notable changes to this project will be documented in this file.
 ## [2026-04-26]
 - style: fix indentation issues
 
+
+## [2026-04-27]
+- chore: update dependencies info
+
