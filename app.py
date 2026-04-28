@@ -17,7 +17,7 @@
 
 # # Application Constants
 # Set daily calorie requirement
-# DAILY_CALORIE_GOAL = 2000
+# DAILY_CALORIE_GOAL = 2000  # Default goal, can be customized per user
 
 # # Function to get food name and calories from Gemini API
 # def get_food_details(image_data: list) -> tuple:
@@ -148,7 +148,7 @@ genai.configure(api_key="AIzaSyD9Gx3RTE4ejA-TruwjtrK-mFFnkRL3eVE")
 
 # Application Constants
 # Set daily calorie requirement
-DAILY_CALORIE_GOAL = 2000
+DAILY_CALORIE_GOAL = 2000  # Default goal, can be customized per user
 
 # Hugging Face API configuration - Add your API key here
 HUGGINGFACE_API_KEY = "YOUR_HUGGINGFACE_API_KEY"  # Replace with your actual API key
@@ -433,6 +433,7 @@ with tab2:
 
 
 # Updated: 2026-04-04T11:30:00
+
 
 
 
