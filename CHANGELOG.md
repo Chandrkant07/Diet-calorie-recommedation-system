@@ -162,3 +162,7 @@ All notable changes to this project will be documented in this file.
 ## [2026-04-29]
 - docs: update inline documentation
 
+
+## [2026-04-30]
+- refactor: clean up code structure
+
