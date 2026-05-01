@@ -68,3 +68,12 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 MIT License
 
+
+## Roadmap
+
+- [x] Basic calorie tracking
+- [x] AI food recognition
+- [x] Diet recommendations
+- [ ] Meal planning feature
+- [ ] Weekly reports
+
