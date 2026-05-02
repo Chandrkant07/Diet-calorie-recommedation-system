@@ -166,3 +166,7 @@ All notable changes to this project will be documented in this file.
 ## [2026-04-30]
 - refactor: clean up code structure
 
+
+## [2026-05-02]
+- style: improve code readability
+
