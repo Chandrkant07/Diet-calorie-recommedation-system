@@ -170,3 +170,7 @@ All notable changes to this project will be documented in this file.
 ## [2026-05-02]
 - style: improve code readability
 
+
+## [2026-05-03]
+- chore: update project metadata
+
