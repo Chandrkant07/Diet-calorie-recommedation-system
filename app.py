@@ -19,7 +19,22 @@
 # Set daily calorie requirement
 # DAILY_CALORIE_GOAL = 2000  # Default goal, can be customized per user
 
-# # Function to get food name and calories from Gemini API
+# 
+# BMI Calculator Helper
+def calculate_bmi(weight_kg: float, height_m: float) -> dict:
+    """Calculate BMI and return category."""
+    bmi = weight_kg / (height_m ** 2)
+    if bmi < 18.5:
+        category = "Underweight"
+    elif bmi < 25:
+        category = "Normal weight"
+    elif bmi < 30:
+        category = "Overweight"
+    else:
+        category = "Obese"
+    return {"bmi": round(bmi, 1), "category": category}
+
+# Function to get food name and calories from Gemini API
 # def get_food_details(image_data: list) -> tuple:
 #     model = genai.GenerativeModel('gemini-1.5-flash')
 #     calorie_prompt = (
@@ -153,6 +168,21 @@ DAILY_CALORIE_GOAL = 2000  # Default goal, can be customized per user
 # Hugging Face API configuration - Add your API key here
 HUGGINGFACE_API_KEY = "YOUR_HUGGINGFACE_API_KEY"  # Replace with your actual API key
 HUGGINGFACE_API_URL = "https://api-inference.huggingface.co/models/meta-llama/Llama-2-70b-chat-hf"  # You can change to another model if preferred
+
+
+# BMI Calculator Helper
+def calculate_bmi(weight_kg: float, height_m: float) -> dict:
+    """Calculate BMI and return category."""
+    bmi = weight_kg / (height_m ** 2)
+    if bmi < 18.5:
+        category = "Underweight"
+    elif bmi < 25:
+        category = "Normal weight"
+    elif bmi < 30:
+        category = "Overweight"
+    else:
+        category = "Obese"
+    return {"bmi": round(bmi, 1), "category": category}
 
 # Function to get food name and calories from Gemini API
 def get_food_details(image_data: list) -> tuple:
@@ -433,6 +463,7 @@ with tab2:
 
 
 # Updated: 2026-04-04T11:30:00
+
 
 
 
