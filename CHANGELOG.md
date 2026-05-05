@@ -174,3 +174,7 @@ All notable changes to this project will be documented in this file.
 ## [2026-05-03]
 - chore: update project metadata
 
+
+## [2026-05-05]
+- docs: add code comments
+
