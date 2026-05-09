@@ -186,3 +186,7 @@ All notable changes to this project will be documented in this file.
 ## [2026-05-08]
 - style: format code consistently
 
+
+## [2026-05-09]
+- chore: minor cleanup
+
