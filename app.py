@@ -210,7 +210,8 @@ def get_food_details(image_data: list) -> tuple:
         return None, None
 
 # New function to get diet recommendations using Hugging Face API
-def get_diet_recommendations_huggingface(food_name):
+def get_diet_recommendations_huggingface(food_name: str) -> dict:
+    """Get diet recommendations using Hugging Face API."""
     headers = {
         "Authorization": f"Bearer {HUGGINGFACE_API_KEY}",
         "Content-Type": "application/json"
@@ -463,6 +464,7 @@ with tab2:
 
 
 # Updated: 2026-04-04T11:30:00
+
 
 
 
