@@ -77,3 +77,10 @@ MIT License
 - [ ] Meal planning feature
 - [ ] Weekly reports
 
+
+## Troubleshooting
+
+- Ensure your API key is valid
+- Check internet connectivity
+- Verify image format (JPG/PNG)
+
