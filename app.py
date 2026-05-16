@@ -45,7 +45,7 @@ def calculate_bmi(weight_kg: float, height_m: float) -> dict:
 #     response = model.generate_content([image_data[0], calorie_prompt])
 #     raw_text = response.text.strip()  # Capture raw response
 
-#     # Debug: Print the API response
+#     # Log the API response for debugging
 #     print(f"API Response: {raw_text}")
 
 #     # Use regex to extract food name and calories more flexibly
@@ -195,7 +195,7 @@ def get_food_details(image_data: list) -> tuple:
     response = model.generate_content([image_data[0], calorie_prompt])
     raw_text = response.text.strip()  # Capture raw response
 
-    # Debug: Print the API response
+    # Log the API response for debugging
     print(f"API Response: {raw_text}")
 
     # Use regex to extract food name and calories more flexibly
@@ -464,6 +464,7 @@ with tab2:
 
 
 # Updated: 2026-04-04T11:30:00
+
 
 
 
