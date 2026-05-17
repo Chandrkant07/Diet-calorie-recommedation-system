@@ -206,3 +206,7 @@ All notable changes to this project will be documented in this file.
 ## [2026-05-15]
 - chore: update configuration
 
+
+## [2026-05-17]
+- docs: clarify function descriptions
+
