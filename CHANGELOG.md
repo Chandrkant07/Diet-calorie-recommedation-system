@@ -210,3 +210,7 @@ All notable changes to this project will be documented in this file.
 ## [2026-05-17]
 - docs: clarify function descriptions
 
+
+## [2026-05-18]
+- refactor: remove redundant code
+
