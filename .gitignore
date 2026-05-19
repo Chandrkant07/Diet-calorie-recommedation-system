@@ -11,3 +11,9 @@ venv/
 *.cache
 .streamlit/
 
+.vscode/
+.idea/
+*.swp
+*.swo
+.qodo/
+
