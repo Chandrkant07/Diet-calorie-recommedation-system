@@ -214,3 +214,7 @@ All notable changes to this project will be documented in this file.
 ## [2026-05-18]
 - refactor: remove redundant code
 
+
+## [2026-05-20]
+- style: standardize naming conventions
+
