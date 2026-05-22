@@ -66,7 +66,21 @@ def calculate_bmi(weight_kg: float, height_m: float) -> dict:
 #         image_data = [{"mime_type": mime_type, "data": image_bytes}]
 #         return get_food_details(image_data)  # Returns food_name, calories
 
-# # Load calorie history from session state
+# 
+# Daily Nutrition Summary Helper
+def get_daily_summary(calorie_history: list) -> dict:
+    """Generate a summary of daily nutrition intake."""
+    today = datetime.now().date()
+    today_items = [item for item in calorie_history if datetime.strptime(item['date'], '%Y-%m-%d %H:%M:%S').date() == today]
+    total = sum(item['calories'] for item in today_items)
+    return {
+        "total_calories": total,
+        "meal_count": len(today_items),
+        "avg_per_meal": round(total / max(len(today_items), 1), 1),
+        "remaining": max(0, DAILY_CALORIE_GOAL - total)
+    }
+
+# Load calorie history from session state
 # if "calorie_history" not in st.session_state:
 #     st.session_state.calorie_history = []
 
@@ -268,6 +282,20 @@ def analyze_food_image(image_bytes, mime_type):
         image_data = [{"mime_type": mime_type, "data": image_bytes}]
         return get_food_details(image_data)  # Returns food_name, calories
 
+
+# Daily Nutrition Summary Helper
+def get_daily_summary(calorie_history: list) -> dict:
+    """Generate a summary of daily nutrition intake."""
+    today = datetime.now().date()
+    today_items = [item for item in calorie_history if datetime.strptime(item['date'], '%Y-%m-%d %H:%M:%S').date() == today]
+    total = sum(item['calories'] for item in today_items)
+    return {
+        "total_calories": total,
+        "meal_count": len(today_items),
+        "avg_per_meal": round(total / max(len(today_items), 1), 1),
+        "remaining": max(0, DAILY_CALORIE_GOAL - total)
+    }
+
 # Load calorie history from session state
 if "calorie_history" not in st.session_state:
     st.session_state.calorie_history = []
@@ -464,6 +492,7 @@ with tab2:
 
 
 # Updated: 2026-04-04T11:30:00
+
 
 
 
