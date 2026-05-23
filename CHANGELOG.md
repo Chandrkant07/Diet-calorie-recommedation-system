@@ -222,3 +222,7 @@ All notable changes to this project will be documented in this file.
 ## [2026-05-21]
 - chore: organize file structure
 
+
+## [2026-05-23]
+- docs: enhance readme details
+
