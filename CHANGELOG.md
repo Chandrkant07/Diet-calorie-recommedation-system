@@ -226,3 +226,7 @@ All notable changes to this project will be documented in this file.
 ## [2026-05-23]
 - docs: enhance readme details
 
+
+## [2026-05-24]
+- refactor: improve error messages
+
