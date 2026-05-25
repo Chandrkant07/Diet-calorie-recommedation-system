@@ -84,3 +84,10 @@ MIT License
 - Check internet connectivity
 - Verify image format (JPG/PNG)
 
+
+## Acknowledgments
+
+- Google Gemini AI for food recognition
+- Streamlit for the web framework
+- Plotly for data visualization
+
