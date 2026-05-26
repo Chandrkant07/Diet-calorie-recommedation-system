@@ -230,3 +230,7 @@ All notable changes to this project will be documented in this file.
 ## [2026-05-24]
 - refactor: improve error messages
 
+
+## [2026-05-26]
+- style: fix indentation issues
+
