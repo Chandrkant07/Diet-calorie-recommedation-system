@@ -134,7 +134,7 @@ def get_daily_summary(calorie_history: list) -> dict:
 #     today = datetime.now().date()
 #     today_df = df[df["date"].dt.date == today]
     
-#     total_calories = today_df["calories"].sum()
+#     total_calories = int(today_df['calories'].sum())  # Ensure integer type
 #     remaining_calories = max(0, DAILY_CALORIE_GOAL - total_calories)
 
 # # Display calorie metrics
@@ -395,7 +395,7 @@ if not df.empty:
     today = datetime.now().date()
     today_df = df[df["date"].dt.date == today]
     
-    total_calories = today_df["calories"].sum()
+    total_calories = int(today_df['calories'].sum())  # Ensure integer type
     remaining_calories = max(0, DAILY_CALORIE_GOAL - total_calories)
 
 # Main content area with tabs
@@ -492,6 +492,7 @@ with tab2:
 
 
 # Updated: 2026-04-04T11:30:00
+
 
 
 
