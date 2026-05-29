@@ -238,3 +238,7 @@ All notable changes to this project will be documented in this file.
 ## [2026-05-27]
 - chore: update dependencies info
 
+
+## [2026-05-29]
+- docs: update inline documentation
+
